@@ -57,6 +57,7 @@ const message_handler = async function (message){
         } else {
             console.log(`${message.author.tag} already in the destination server, ignored because of admin permission.`);
         }
+        return;
     }
     if(throttle_ban.hasOwnProperty(message.author.id)){
         return message.channel.send(throttle_message);
