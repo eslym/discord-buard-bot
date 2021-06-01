@@ -1,0 +1,21 @@
+{
+  "name": "discord-guard-bot",
+  "version": "1.0.0",
+  "description": "A Bot to guard discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "0nepeop1e",
+  "license": "MIT",
+  "dependencies": {
+    "@haileybot/captcha-generator": "^1.7.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "process": "^0.11.10"
+  }
+}
