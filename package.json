@@ -1,6 +1,6 @@
 {
   "name": "discord-guard-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Bot to guard discord server",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,14 @@
   "author": "0nepeop1e",
   "license": "MIT",
   "dependencies": {
-    "@haileybot/captcha-generator": "^1.7.0",
+    "ansi-escape-sequences": "^6.0.1",
+    "canvas": "^2.8.0",
+    "discord-buttons": "^3.1.1",
     "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0",
-    "process": "^0.11.10"
+    "ioredis": "^4.27.6",
+    "jsonpath": "^1.1.1",
+    "process": "^0.11.10",
+    "time-stamp": "^2.2.0",
+    "yaml": "^1.10.2"
   }
 }
