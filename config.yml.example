@@ -23,8 +23,6 @@ lang:
       Sorry, please try again
     throttle: |-
       Sorry, you tried too much, please try again later
-    join: |-
-      You pass the verification, click join to join the server
   button:
     join: Join
     reset: "Can't Read"
